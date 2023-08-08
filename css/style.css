@@ -345,7 +345,7 @@ p {
 .studies-content-container {
     display: flex;
     justify-content: center;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     margin-right: 0px;
 }
 .studies-subheader p {
@@ -666,19 +666,16 @@ p {
 
 
 .studies-container2 {
-    border: 1px solid red;
+    margin-top: 50px;
+    min-width: 791px;
     display: flex;
     justify-content: center;
 }
 .AC-container {
-    border: 1px solid green;
     width: 600px;
 }
 .AC-container h2 {
     margin: 0px;
-}
-.AC-explands {
-    border: 1px solid turquoise;
 }
 .AC-explands p {
     margin: 0px;
@@ -686,7 +683,8 @@ p {
     width: 600px;
 }
 .AC-formula {
-    border: 1px solid fuchsia;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 .divide-layer.ed {
     position: relative;
@@ -694,8 +692,7 @@ p {
     width: 300px;
 }
 .AC-explands-conclude1 {
-    border: 1px solid orange;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .AC-explands-conclude1 b {
     color: #E64A19;
@@ -704,20 +701,12 @@ p {
     color: black;
 }
 .AC-definition {
-    border: 1px solid blue;
     margin-top: 20px;
     background-color: #f7977a;
     padding: 10px;
 }
-.AC-explands-conclude2 {
-    border: 1px solid turquoise;
-}
 .example-of-RMM {
-    border: 1px solid fuchsia;
     margin-top: 50px;
-}
-.example-of-RMM-header {
-    border: 1px solid orange;
 }
 .example-of-RMM-header b {
     font-size: 35px;
@@ -728,15 +717,10 @@ p {
     margin: 0px;
     color: #E64A19;
 }
-.example-of-RMM-explan {
-    border: 1px solid blue;
-}
 .main-example-container {
-    border: 1px solid #E64A19;
     margin-top: 50px;
 }
 .main-example-header {
-    border: 1px solid turquoise;
 }
 .main-example-explan {
     border: 1px solid orange;
@@ -745,12 +729,175 @@ p {
     margin-left: 20px;
 }
 .main-example {
-    border: 1px solid fuchsia;
     line-height: 30px;
 }
 .main-example p {
     font-size: 23px;
 }
 .answer-header {
-    border: 1px solid blue;
+    margin-top: 20px;
+}
+.main-answer {
+    line-height: 35px;
+    padding: 20px;
+}
+.main-answer span {
+    background-color: #f7977a;
+}
+.main-answer p {
+    font-size: 23px;
+}
+.main-answer b {
+    margin-left: 35px;
+}
+
+.seq-container {
+    width: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    margin-top: 50px;
+}
+.seq-container p {
+    text-transform: uppercase;
+    color: #E64A19;
+}
+.main-seq-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.main-seq-container p {
+    font-size: 22px;
+}
+.main-seq-pt1 {
+    width: 180px;
+}
+.main-seq-pt2 {
+    width: 200px;
+}
+.main-seq-pt3 {
+    width: 180px;
+}
+
+
+.calculation-of-amount-of-substance-container {
+    margin-top: 50px;
+}
+.calculation-of-amount-of-substance-header h1 {
+    color: #E64A19;
+    margin: 0px;
+}
+.calculation-of-amount-of-substance-header b {
+    font-size: 35px;
+}
+.calculation-of-amount-of-substance-explan p {
+    font-size: 22px;
+}
+.calculation-of-amount-of-substance-explan span {
+    color: #E64A19;
+}
+
+.AC-container-continue {
+    width: 600px;
+}
+.calculation-of-amount-of-substance-explan-continue {
+    font-size: 22px;
+}
+.calculation-of-amount-of-substance-explan-continue imp {
+    color: #E64A19;
+}
+.calculation-of-amount-of-substance-formula-container {
+    font-size: 23px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #FF8A65;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.given-molar-mole {
+    text-align: center;
+}
+.given-molar-mole .divide-layer {
+    width: 110px;
+}
+
+.condition-formulas {
+    margin-top: 10px;
+    font-size: 20px;
+    padding-left: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.condition-formulas-pt1 {
+    margin-left: 10px;
+}
+.condition-formulas-pt1 .divide-layer {
+    width: 100px;
+}
+.mass-formula {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.main-mass-formula {
+    font-size: 22px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 300px;
+    background-color: #FF8A65;
+}
+
+.calculation-of-amount-of-substance-example {
+    border: 1px solid #E64A19;
+    margin-top: 40px;
+}
+.calculation-of-amount-of-substance-headind {
+    font-size: 20px;
+}
+.main-calculation-of-amount-of-substance-qut {
+    font-size: 20px;
+}
+.main-calculation-of-amount-of-substance-qut imp {
+    margin-left: 20px;
+}
+.calculation-of-amount-of-substance-answer {
+    font-size: 20px;
+}
+.calculation-of-amount-of-substance-answer imp {
+    margin-left: 50px;
+}
+.calculation-of-amount-of-substance-answer span {
+    margin-left: 50px;
+}
+.exercise {
+    margin-top: 100px;
+}
+.exercise .seq-container {
+    font-size: 23px;
+    margin: 0px;
+}
+.main-exercise {
+    font-size: 22px;
+    line-height: 30px;
+}
+.main-exercise span {
+    margin-left: 20px;
+}
+@media (max-width: 1490px) {
+    .AC-container {
+        margin-right: 50px;
+    }
+    .AC-container-continue {
+        margin-left: 50px;
+    }
+    .studies-container2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .seperation2 {
+        display: none;
+    }
 }
